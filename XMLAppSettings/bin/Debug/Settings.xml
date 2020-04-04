@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Application Settings-->
+<Settings>
+  <DefaultBoxSize>9x9</DefaultBoxSize>
+  <SearchAsYouType>True</SearchAsYouType>
+  <ShowGridLines>True</ShowGridLines>
+  <ShowCellBorders>True</ShowCellBorders>
+  <ShowRowGridLines>False</ShowRowGridLines>
+  <ShowColumnGridLines>False</ShowColumnGridLines>
+  <ShowAlternatingRowColor>True</ShowAlternatingRowColor>
+  <AppBackgroundColor>#ECEEF0</AppBackgroundColor>
+  <AppTextColor>#15428B</AppTextColor>
+  <AppBorderColor>#729DCE</AppBorderColor>
+  <AppToolBarColor>#D3E2F4</AppToolBarColor>
+  <AppGridViewCellBorderColor>#DCDCDC</AppGridViewCellBorderColor>
+  <AppGridViewAlternatingRowColor>#EEEEFF</AppGridViewAlternatingRowColor>
+  <AppGridViewRowSelectionColor>#0078D7</AppGridViewRowSelectionColor>
+  <AppColorTheme>Application Default</AppColorTheme>
+</Settings>
