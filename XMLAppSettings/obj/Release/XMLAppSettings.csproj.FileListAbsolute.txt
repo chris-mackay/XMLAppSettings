@@ -1,9 +1,10 @@
 C:\Programming\XMLAppSettings\XMLAppSettings\bin\Release\XMLAppSettings.exe.config
 C:\Programming\XMLAppSettings\XMLAppSettings\bin\Release\XMLAppSettings.exe
 C:\Programming\XMLAppSettings\XMLAppSettings\bin\Release\XMLAppSettings.pdb
-C:\Programming\XMLAppSettings\XMLAppSettings\obj\Release\XMLAppSettings.csprojAssemblyReference.cache
+C:\Programming\XMLAppSettings\XMLAppSettings\bin\Release\DialogMessage.dll
 C:\Programming\XMLAppSettings\XMLAppSettings\obj\Release\XMLAppSettings.frmSettings.resources
 C:\Programming\XMLAppSettings\XMLAppSettings\obj\Release\XMLAppSettings.Properties.Resources.resources
 C:\Programming\XMLAppSettings\XMLAppSettings\obj\Release\XMLAppSettings.csproj.GenerateResource.cache
+C:\Programming\XMLAppSettings\XMLAppSettings\obj\Release\XMLAppSettings.csproj.CopyComplete
 C:\Programming\XMLAppSettings\XMLAppSettings\obj\Release\XMLAppSettings.exe
 C:\Programming\XMLAppSettings\XMLAppSettings\obj\Release\XMLAppSettings.pdb

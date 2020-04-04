@@ -16,6 +16,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
@@ -268,11 +269,24 @@ namespace XMLAppSettings
                 }
             }
 
-            MessageBox.Show("Settings saved.");
+            // DialogMessage source code
+            // https://github.com/chris-mackay/DialogMessage
+
+            FileInfo file = new FileInfo("Settings.xml");
+
+            DialogMessage.Message msg = new DialogMessage.Message();
+
+            if (msg.ShowMessage("XMLAppSettings", 
+                                "Settings are saved\n\n" + file.FullName, 
+                                DialogMessage.Message.MsgButtons.YesNo, 
+                                "Do you want to view the settings file?") == DialogResult.Yes)
+            {
+                Process.Start(file.FullName);
+            }
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmSettings_Load(object sender, EventArgs e)
         {
             CreateAppSettings_SetDefaults();
 
@@ -623,7 +637,6 @@ namespace XMLAppSettings
             settingsFile = AppSettingsFile;
 
             // General
-            appSettings.Add("DefaultBoxSize,9x9");
             appSettings.Add("SearchAsYouType,True");
 
             // Grid settings
